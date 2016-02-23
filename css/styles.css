@@ -1,9 +1,9 @@
 body {
 	/*background-color: blue;*/
-	color: white;
+	/*color: white;*/
 	margin: 0;
 	/*margin-top: 72px;*/
-	font-family: Arial; sans-serif;
+	font-family: Tahoma
 }
 
 nav {
@@ -18,11 +18,11 @@ nav {
 
 nav ul {
 	padding: 0;
-
 /*	background-color: white;*/
 	margin-top: 0px;
 	height: 50px;
 	padding-top: 16px;
+
 }
 
 nav ul ul {
@@ -34,6 +34,7 @@ nav ul ul {
 nav > ul > li {
 	display: inline-block;
 	padding: 0 30px;
+
 }
 
 nav ul li:hover ul {
@@ -45,6 +46,7 @@ h1 {
 	padding: 0 30px;
 	vertical-align: top;
 	padding: 10px;
+
 }
 
 nav li {
@@ -55,7 +57,7 @@ nav li {
 }
 
 nav li a {
-	color: white;
+	color: #F2E1B1;
 	font-size: 1.5em;
 }
 
@@ -85,26 +87,114 @@ section {
 	margin-top: 0px;
 	background-size: 1366px 800px;
 	background-repeat: no-repeat;
-	background-image: url(../images/dusty-sky.jpeg);
+	background-image: url(../images/nightsky.jpeg);
 }
 
 .name {
-	width: 400px;
-	height: 300px;
+	width: 550px;
+	height: 250px;
 	margin: 0 auto;
-	margin-top: 200px;
+	margin-top: 150px;
+	color: #F2E1B1;
+	font-size: 1.7em;
+	font-family: Tahoma;
+	font-weight: lighter;
 }
 
-#about {
-	background-image: url(../images/nightsky.jpeg);
+.myname {
+	font-size: 1.8em;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+.title {
+	margin-top: 0;
+	padding-top: 0;
+	font-weight: lighter;
+}
+
+.container {
+	width: 1366px;
+	height: 700px;	
+}
+
+.col-sm-12 {
+	color: grey;
+	margin-bottom: 50px;
+}
+
+ul.skills {
+	text-align: center;
+}
+
+.skills li {
+	list-style: none;
+	display: inline-block;	
+}
+
+li.responsive {
+	color: #333F4C;
+    opacity:.5;
+    padding: 6px 10px 2px;
+    border: 1px solid #333F4C;
+    margin-bottom: 5px;
+    margin-right: 3px; 
+}
+
+li.html5 {
+	color: #333F4C;
+    opacity:.5;
+    padding: 6px 10px 2px;
+    border: 1px solid #333F4C;
+    margin-bottom: 5px;
+    margin-right: 3px; 
+}
+
+li.css{
+	color: #333F4C;
+    opacity:.5;
+    padding: 6px 10px 2px;
+    border: 1px solid #333F4C;
+    margin-bottom: 5px;
+    margin-right: 3px; 
+}
+
+li.java {
+	color: #333F4C;
+    opacity:.5;
+    padding: 6px 10px 2px;
+    border: 1px solid #333F4C;
+    margin-bottom: 5px;
+    margin-right: 3px; 
+}
+
+li.jquery{
+	color: #333F4C;
+    opacity:.5;
+    padding: 6px 10px 2px;
+    border: 1px solid #333F4C;
+    margin-bottom: 5px;
+    margin-right: 3px; 
+}
+
+.col-sm-12 {
+		margin-bottom: 10px;
 }
 
 #projects {
-	background-image: url(../images/nightsky.jpeg);
+	color: white;
+	margin-top: 0px;
+	background-size: 1366px 800px;
+	background-repeat: no-repeat;
+	background-image: url(../images/oceansky.jpeg);
+	
 }
 
 #portfolio {
-	background-image: url(../images/nightsky.jpeg);
+	color: #333F4C;
+	margin-top: 0px;
+	background-size: 1366px 800px;
 }
 
 /*up to 786 pixels page will look like this*/
@@ -135,5 +225,15 @@ section {
 	body {
 		margin-top: 0;
 	}
-	
+
+	h1.myname {
+		font-size: 1.7em;
+	}
+
+	.container {
+		width: 400px;
+		height: 1073px;
+	}
+
+
 }
